@@ -1,12 +1,16 @@
 {
-    "name": "jonahgeorge/weatherglass-laravel",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Jonah George",
-            "email": "jonah.george@me.com"
-        }
-    ],
-    "require": {}
+  "name": "jonahgeorge/weatherglass-laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonah George",
+      "email": "jonah.george@me.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "JonahGeorge\\": "src/"
+    }
+  }
 }
